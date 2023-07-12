@@ -1,0 +1,16 @@
+h1{
+    color: aqua;
+    font-weight: 800;
+    font-size: 6vw;
+  /* make our h1 tag larger */
+  font-family: sans-serif;
+  /* choosing our font */
+  background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 61%), linear-gradient(rgb(167, 249, 240) 52%, rgba(255, 255, 255, 0) 60%, rgb(57, 86, 76) 61%);
+  /* you can change the colors based on your preference */
+  background-clip: text;
+  /*add this line, it defines how far the background should extend within an element, here we set it to text */
+  -webkit-background-clip: text;
+  /* add this line, for browsers compatibility */
+  -webkit-text-fill-color: transparent;
+  /* specifies the fill color of text characters. We use transparent to use the background value as our text fill */
+}
